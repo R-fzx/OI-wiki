@@ -365,7 +365,7 @@ $$
 
 另一种方法是利用上述后缀自动机的树形结构。每个节点对应的子串数量是 $\operatorname{len}(i)-\operatorname{len}(\operatorname{link}(i))$，对自动机所有节点求和即可。
 
-例题：[【模板】后缀自动机](https://www.luogu.com.cn/problem/P3804)，[SDOI2016 生成魔咒](https://loj.ac/problem/2033)
+例题：[P2408 不同子串个数](https://www.luogu.com.cn/problem/P2408)，[SDOI2016 生成魔咒](https://loj.ac/problem/2033)
 
 ### 所有不同子串的总长度
 
